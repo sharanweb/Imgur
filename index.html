@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Imgur_logo.svg/1200px-Imgur_logo.svg.png"/>
+    <script
+      src="https://kit.fontawesome.com/249783f98b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Imgur-Clone</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="section-one">
+          <div class="logo">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Imgur_logo.svg/1200px-Imgur_logo.svg.png"
+              alt="logo"
+            />
+          </div>
+          <div class="nav-button one">
+            <button>
+              <i class="fas fa-plus"> </i>
+              <span>New Post</span>
+            </button>
+          </div>
+        </div>
+        <div class="search">
+          <input id="search" placeholder="Images,#tags,@users oh my!" />
+          <i class="fas fa-search"></i>
+        </div>
+
+        <div class="section-two">
+          <div class="nav-button two">
+            <button id="next">Go Ad-Free</button>
+          </div>
+          <div class="nav-button one">
+            <button>
+              <i class="fas fa-plus"> </i>
+              <span>SignUp</span>
+            </button>
+          </div>
+          
+          
+        </div>
+      </nav>
+      <section>
+          <img src="./images/emerald.png" alt="ad"/>
+      </section>
+    </header>
+    <main>
+        <div class="filter-field">
+            <div>
+                <span>Most Viral</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div>
+                <div>
+                    <span>Popular</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div>
+                    <i class="fas fa-play"></i>
+                    <!-- <i class="fas fa-pause"></i> -->
+                    <i class="fas fa-th-large"></i>
+                </div>
+            </div>
+        </div>
+        <div id="display" class="display">
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
